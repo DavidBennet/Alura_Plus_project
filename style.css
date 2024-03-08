@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --background-color: #00030C;
+    --text-color-primary: #FFFFFF;
+    --text-color-secundary: #C0C0C0;
+    --botton-color: #167BF7;
+    --font-primary: "Lato";
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color-principal);
+    font-family: var(--font-primary);
+    font-size: 400;
+}
+
+.first__section {
+    background-image: url(./assets/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 7.812rem 3.375rem;
+}
+
+.container__titlo {
+    color: var(--text-color-primary);
+    font-size: 1.75rem;
+    font-weight: 700;
+    width: 36.75rem;
+    height: 6.375rem;
+    text-align: center;
+    margin-bottom: 1.375rem;
+}
+
+.first__section__img {
+    width: 21.75rem;
+}
+
+.container__botton {
+    background-color: var(--botton-color);
+    width: 32rem;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: .5rem;
+    color: var(--text-color-primary);
+    font-family: var(--font-primary);  
+    margin: 3.375rem 0 1rem;
+    transition: 0.3s;  
+}
+
+.container__botton:hover {
+    background-color: #0728fe;
+}
+
+.container__botton__transparent {
+    background-color: transparent;
+    border: 2px solid var(--text-color-primary);
+    width: 31.5rem;
+    padding: 0.87rem 0;
+    text-align: center;
+    border-radius: .5rem;
+    color: var(--text-color-primary);
+    font-family: var(--font-primary);
+    display: block;
+    margin-bottom: 0.625rem;
+    transition: 0.3s;
+}
+
+.container__botton__transparent:hover {
+    background-color: var(--text-color-primary);
+    color: var(--background-color);
+}
+
+.paragraph {
+    color: var(--text-color-secundary);
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.second__section__img {
+    width: 60%;
+    margin: auto;
+}
+
+.second__section__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 36.75rem;
+}
+
+.title {
+    color: var(--text-color-primary);
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.second__section__paragraph {
+    color: var(--text-color-secundary);
+    font-family: var(--font-primary);
+    font-weight: 400;
+}
+
+.third__section__box {
+    width: 36.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+}
+
+.third__section__paragraph {
+    color: var(--text-color-secundary);
+    font-family: var(--font-primary);
+    font-weight: 400;
+}
+
+.third__section__button {
+    padding: 1rem;
+    background-color: var(--botton-color);
+    border-radius: .5rem;
+    color: var(--text-color-primary);
+    transition: 0.3s;
+}
+
+.third__section__button:hover {
+    background-color: #0728fe;
+}
+
+.third__section__img {
+    margin: auto;
+    width: 31rem;
+}
+
+.fourth__section_img {
+    width: 31rem;
+    margin: auto;
+}
+
+.fourth__section__box {
+    width: 36.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .5rem;
+    margin: auto;
+}
+
+.fourth__section__paragraph {
+    color: var(--text-color-secundary);
+    font-family: var(--font-primary);
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista__icons {
+    text-align: center;
+    gap: 1rem;
+}
+
+.subtitle {
+    color: var(--text-color-primary);
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 6.375rem;
+    margin: 7rem auto 2.5rem;
+}
+
+ul {
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+ul li a {
+    color: var(--text-color-primary);
+    
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    color: #167BF7;
+}
+
+ul li a:active {
+    color: aqua;
+}
+
+.footer__paragraph {
+    color: var(--text-color-secundary);
+    font-family: var(--font-primary);
+    font-size: .875rem;
+    font-weight: 400;
+    margin-top: .5rem;
+}
